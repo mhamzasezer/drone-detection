@@ -10,9 +10,9 @@ import os
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 # Environment variables for credentials and camera IP
-camera_ip = os.getenv('CAMERA_IP', '192.168.0.52')
+camera_ip = os.getenv('CAMERA_IP', '')
 username = os.getenv('CAMERA_USERNAME', 'admin')
-password = os.getenv('CAMERA_PASSWORD', '6540pachinko')
+password = os.getenv('CAMERA_PASSWORD', '')
 
 # Initialize the camera
 camera = Camera(ip=camera_ip, username=username, password=password)
