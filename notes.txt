@@ -1,0 +1,19 @@
+'DEFAULT_HDD_ID', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__', '_execute_command', '_process_motion_files', '_send_noparm_operation', '_send_operation', '_send_set_preset', '_start_operation', '_stop_zooming_or_focusing', 'add_preset', 'add_user', 'auto_movement', 'delete_user', 'format_hdd', 'get_alarm_motion', 'get_dst', 'get_file', 'get_general_system', 'get_hdd_info', 'get_information', 'get_mask', 'get_motion_files', 'get_net_ports', 'get_network_ddns', 'get_network_email', 'get_network_ftp', 'get_network_general', 'get_network_ntp', 'get_network_push', 'get_network_status', 'get_online_user', 'get_osd', 'get_performance', 'get_recording_advanced', 'get_recording_encoding', 'get_snap', 'get_users', 'get_wifi', 'go_to_preset', 'ip', 'login', 'logout', 'modify_user', 'move_down', 'move_left', 'move_left_down', 'move_left_up', 'move_right', 'move_right_down', 'move_right_up', 'move_up', 'open_video_stream', 'password', 'profile', 'reboot_camera', 'remove_preset', 'scan_wifi', 'set_adv_image_settings', 'set_image_settings', 'set_net_port', 'set_osd', 'set_recording_encoding', 'set_wifi', 'start_focusing_in', 'start_focusing_out', 'start_zooming_in', 'start_zooming_out', 'stop_focusing', 'stop_ptz', 'stop_zooming', 'token', 'url', 'username'
+
+relevant methods for moving the camera are:
+move_down
+move_left
+move_left_down
+move_left_up
+move_right
+move_right_down
+move_right_up
+move_up
+
+start and stop zooming and focusing:
+start_zooming_in
+start_zooming_out
+stop_zooming
+start_focusing_in
+start_focusing_out
+stop_focusing
