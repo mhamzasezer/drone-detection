@@ -7,9 +7,10 @@ import requests
 from reolinkapi import Camera
 
 # Replace with your camera's IP, username, and password
-camera_ip = '192.168.0.52'
-username = 'admin'
-password = '6540pachinko'
+camera_ip = ''
+username = ''
+password = ''
+
 
 try:
     # Initialize the camera

@@ -103,3 +103,4 @@ except Exception as e:
 finally:
     cap.release()
     cv2.destroyAllWindows()
+    
