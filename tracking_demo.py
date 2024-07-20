@@ -6,9 +6,9 @@ import numpy as np
 import time
 
 # Camera's IP, username, and password
-camera_ip = '192.168.0.52'
+camera_ip = ''
 username = 'admin'
-password = '6540pachinko'
+password = ''
 
 # Initialize the camera
 video_url = f'rtsp://{username}:{password}@{camera_ip}//h264Preview_01_main'
