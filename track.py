@@ -8,9 +8,9 @@ from simple_pid import PID
 import time
 
 # Camera's IP, username, and password
-camera_ip = '192.168.0.52'
+camera_ip = ''
 username = 'admin'
-password = '6540pachinko'
+password = ''
 
 # Initialize the camera
 camera = Camera(ip=camera_ip, username=username, password=password)
